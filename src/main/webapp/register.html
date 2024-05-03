@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h2>Register</h2>
+    <form action="Controller" method="post">
+        <input type="hidden" name="action" value="doRegister"/>
+        <div class="form-group">
+            <label>Username:</label>
+            <input type="text" name="username" class="form-control" required/>
+        </div>
+        <div class="form-group">
+            <label>Password:</label>
+            <input type="password" name="password" class="form-control" required/>
+        </div>
+        <button type="submit" class="btn btn-success">Register</button>
+    </form>
+</div>
+</body>
+</html>
